@@ -1,0 +1,99 @@
+*{
+    margin: 100;
+    padding: 100;
+}
+
+@font-face{
+ font-family:'relojDigital';
+ src: url('radioland/RADIOLAND.TTF');
+}
+
+#cabeza{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#timerTitulo{
+    text-align: center;
+    font-size: 2,5rem;
+    font-weight: 400;
+    background: lightgreen;
+    font-family: Arial;
+}
+
+#tituloSeccion{
+    font-family: Arial;
+    color: black;
+}
+
+.contenedorTimer{
+    text-align: center;
+    background: lightgreen;
+}
+
+.contenedorTimer h1{
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: 'relojDigital';
+    color: blue;
+}
+
+.contenedorTimer h2{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'relojDigital';
+
+}
+
+
+.contenedorSelector{
+    color: red;
+    background: #70BA7A;
+    width: 45%;
+    display: inline-block;
+
+}
+
+.contenedorSelector2{
+    color: red;
+    background: #70BA7A;
+    width: 45%;
+    display: inline-block;
+
+}
+
+.boton{
+
+}
+
+.counter{
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.caja {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+}
+
+#divBlue{
+    background:lightblue;
+    width: 50%;
+}
+
+/*
+#timer {
+  font-size: 3em;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  padding: 1em;
+}
+*/
+
